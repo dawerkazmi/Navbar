@@ -55,4 +55,45 @@ img {
     transition: 0.5s;
     font-size: 2em;
 }
+
+.pages {
+    height: 100vh;
+    background-color: #FF6F61;
     
+}
+.illustration {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    color: white;
+    gap: 3%;
+  
+}
+.text {
+    margin-top: 2%;
+    margin-right: 15%;
+    font-size: 1.5rem;
+}
+.text p i {
+    color: gray;
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-radius: 6px;
+}
+
+.illustration img{
+
+  margin-top: 2%;
+  margin-left: 15%;
+  height: 500px;
+  width: 370px;
+  border-radius: 80px;
+}
+.footer {
+    background: black;
+    color: #FF6F61;
+    text-align: center;
+    padding: 10px;
+    margin-top: 22%;
+    font-size: 20px;
+    opacity: 0.9;
+}
